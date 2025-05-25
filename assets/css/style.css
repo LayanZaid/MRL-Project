@@ -80,4 +80,38 @@
     max-width: 500px;
     height: auto;
   }
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .service-box {
+    background: #fff;
+    border: 2px solid #00bcd4;
+    box-shadow: 0 4px 8px rgba(0, 188, 212, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px);
+  }
+  i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #00bcd4;
+  }
+  
+  .service-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
 
