@@ -41,3 +41,43 @@
     margin-left: 20px;
   }
 
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    
+   
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text h1 span {
+    color: #00a7a7;
+  }
+  
+  .hero-text p {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    background-color: #00a7a7;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .hero-image img {
+    max-width: 500px;
+    height: auto;
+  }
+
